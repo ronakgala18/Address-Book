@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="addContactLayout" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="634.0" prefWidth="889.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.assignment2.AddController">
+    <children>
+        <Button id="add" fx:id="add" layoutX="391.0" layoutY="561.0" mnemonicParsing="false" onAction="#addButton" text="Add" />
+        <Label fx:id="AddContact" layoutX="301.0" layoutY="55.0" text="Add Contact">
+            <font>
+                <Font size="52.0" />
+            </font>
+        </Label>
+        <TextField id="fntext" fx:id="fntext" layoutX="203.0" layoutY="189.0" />
+        <TextField id="lntext" fx:id="lntext" layoutX="506.0" layoutY="189.0" />
+        <TextField id="hptext" fx:id="hptext" layoutX="203.0" layoutY="230.0" />
+        <TextField id="wptext" fx:id="wptext" layoutX="506.0" layoutY="230.0" />
+        <TextField id="si1text" fx:id="si1text" layoutX="203.0" layoutY="271.0" />
+        <TextField id="si2text" fx:id="si2text" layoutX="506.0" layoutY="271.0" />
+        <TextField id="citytext" fx:id="citytext" layoutX="203.0" layoutY="311.0" />
+        <TextField id="pctext" fx:id="pctext" layoutX="506.0" layoutY="312.0" />
+        <TextField id="provtext" fx:id="provincetext" layoutX="203.0" layoutY="352.0" />
+        <TextField id="countrytext" fx:id="countrytext" layoutX="506.0" layoutY="353.0" />
+        <TextField id="emailtext" fx:id="emailtext" layoutX="203.0" layoutY="393.0" />
+        <TextField id="dobtext" fx:id="dobtext" layoutX="506.0" layoutY="393.0" />
+        <TextField id="mobtext" fx:id="mobtext" layoutX="203.0" layoutY="435.0" />
+        <TextField id="yobtext" fx:id="yobtext" layoutX="506.0" layoutY="435.0" />
+        <TextField id="notestext" fx:id="notestext" layoutX="261.0" layoutY="477.0" prefHeight="58.0" prefWidth="320.0" />
+        <Label id="fn" fx:id="fn" layoutX="113.0" layoutY="191.0" prefHeight="21.0" prefWidth="83.0" text="First Name:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label id="hp" fx:id="hp" layoutX="100.0" layoutY="232.0" prefHeight="21.0" prefWidth="96.0" text="Home Phone:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label id="si1" fx:id="si1" layoutX="100.0" layoutY="273.0" prefHeight="21.0" prefWidth="96.0" text="Street Info 1:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label id="city" fx:id="city" layoutX="155.0" layoutY="314.0" prefHeight="21.0" prefWidth="34.0" text="City:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label id="prov" fx:id="province" layoutX="123.0" layoutY="355.0" prefHeight="21.0" prefWidth="65.0" text="Province:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label id="email" fx:id="email" layoutX="144.0" layoutY="395.0" prefHeight="21.0" prefWidth="44.0" text="Email:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label id="ln" fx:id="ln" layoutX="410.0" layoutY="191.0" prefHeight="21.0" prefWidth="83.0" text="Last Name:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label id="wp" fx:id="wp" layoutX="397.0" layoutY="232.0" prefHeight="21.0" prefWidth="96.0" text="Work Phone:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label id="si2" fx:id="si2" layoutX="397.0" layoutY="273.0" prefHeight="21.0" prefWidth="96.0" text="Street Info 2:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label id="pc" fx:id="pc" layoutX="397.0" layoutY="314.0" prefHeight="21.0" prefWidth="96.0" text="Postal Code:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label id="country" fx:id="country" layoutX="419.0" layoutY="355.0" prefHeight="21.0" prefWidth="65.0" text="Country:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label id="dob" fx:id="dob" layoutX="403.0" layoutY="395.0" prefHeight="21.0" prefWidth="83.0" text="Day of birth:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label id="mob" fx:id="mob" layoutX="79.0" layoutY="437.0" prefHeight="21.0" prefWidth="104.0" text="Month of birth:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label id="yob" fx:id="yob" layoutX="397.0" layoutY="437.0" prefHeight="21.0" prefWidth="89.0" text="Year of birth:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label id="notes" fx:id="notes" layoutX="196.0" layoutY="496.0" prefHeight="21.0" prefWidth="44.0" text="Notes:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Button id="clear" fx:id="clear" layoutX="261.0" layoutY="561.0" mnemonicParsing="false" onAction="#clearbutton" text="Clear" />
+        <Button id="clear" fx:id="viewList" layoutX="518.0" layoutY="561.0" mnemonicParsing="false" onAction="#viewList" text="View List" />
+        <Button fx:id="mainMenu" layoutX="47.0" layoutY="55.0" mnemonicParsing="false" onAction="#mainMenu" prefHeight="35.0" prefWidth="170.0" text="Main Menu" />
+    </children>
+</Pane>
